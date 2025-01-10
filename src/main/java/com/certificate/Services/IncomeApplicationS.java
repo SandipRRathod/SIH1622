@@ -1,12 +1,6 @@
 package com.certificate.Services;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
-import java.util.Optional;
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
