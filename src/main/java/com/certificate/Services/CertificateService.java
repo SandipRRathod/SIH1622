@@ -330,7 +330,7 @@ public class CertificateService {
             // Body Paragraph
             String bodyText = "This is to certify that, " + applicantName + " is a resident of Village "+user.getUserVillage()
                     + " residing at Village "+user.getUserVillage()+", Post "+user.getUserVillage()+", Taluka "+user.getUserTq()+", "
-                    + "District "+user.getUserDist()+" is born in India and is a citizen of India. The Reasion Of this Certificate Is "+application.getCertiReasion()+" and Based on the evidence provided "
+                    + "District "+user.getUserDist()+" is born in India and is a citizen of India. The Reason Of this Certificate Is "+application.getCertiReasion()+" and Based on the evidence provided "
                     + "in the submitted documents.";
 
             float marginLeft = 100; // Left margin
