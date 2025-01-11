@@ -365,7 +365,7 @@ public class CertificateService {
     			contentStream.setFont(PDType1Font.HELVETICA, 13);
     			yPosition -= 90; // Adjust y-position for validity statement
     			contentStream.newLineAtOffset(100, yPosition);
-    			contentStream.showText("the annual income of Last / Current Year: "+(LocalDate.now().getYear()-1)+"-"+LocalDate.now().getYear()+" | Annual Income: RS "+application.getAnnualIncome());
+    			contentStream.showText("the annual income of Year: "+(LocalDate.now().getYear()-1)+"-"+LocalDate.now().getYear()+" | Annual Income: RS "+application.getAnnualIncome());
     			contentStream.endText();
             }
             else {
