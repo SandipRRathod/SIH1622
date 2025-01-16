@@ -59,7 +59,7 @@ public class SecurityConfig {
     @Bean
     protected CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("https://certificate-portal-sih1622.vercel.app","https://certificate-sih1622.up.railway.app"));
+        configuration.setAllowedOrigins(Arrays.asList("https://certificate-portal-sih1622.vercel.app","http://certificate-sih1622.up.railway.app"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE"));
         configuration.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type"));
         configuration.setAllowCredentials(true);
